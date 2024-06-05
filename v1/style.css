@@ -1,0 +1,27 @@
+:root {
+  --hSize: 10;
+}
+
+.habitat {
+  border: 1px solid black;
+  height: 70vh;
+  width: 70vh;
+  display: grid;
+  grid-template-columns: repeat(var(--hSize), 1fr);
+  grid-template-rows: repeat(var(--hSize), 1fr);
+}
+.cell {
+  border: 1px solid rgb(135, 135, 135);
+}
+
+.fish {
+  background-color: rgb(105, 105, 249);
+  height: 100%;
+}
+
+.food {
+  background-color: rgb(46, 196, 46);
+  height: 50%;
+  width: 50%;
+  
+}
